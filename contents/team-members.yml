@@ -1,0 +1,19 @@
+# 团队成员配置文件 - 自动生成
+# 文件夹命名规则：姓名_身份
+# 头像路径：Teachers/姓名_身份/static/assets/img/photo.png
+
+teachers:
+  - name: "name"
+    title: "1"
+    photo: "Teachers/name_1/static/assets/img/photo.png"
+  - name: "王宇轩"
+    title: "讲师"
+    photo: "Teachers/王宇轩_讲师/static/assets/img/photo.png"
+
+students:
+  - name: "name"
+    title: "1"
+    photo: "Students/name_1/static/assets/img/photo.png"
+  - name: "name"
+    title: "2"
+    photo: "Students/name_2/static/assets/img/photo.png"

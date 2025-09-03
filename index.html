@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
+    <meta name="description" content="学术主页" />
     <meta name="author" content="senli1073" />
     <title id="title"></title>
 
@@ -81,23 +81,23 @@
     <!-- Navigation-->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
+            <a href="https://www.hpu.edu.cn/"><img src="static/assets/img/logo.png" style="width: 17rem;"></a>
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
+                菜单
                 <i class="bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                        <a class="nav-link me-lg-3" href="#page-top">首页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#home">团队简介</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#publications">团队成员</a>
                     </li>
 
                 </ul>
@@ -106,7 +106,7 @@
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
+    <section class="top-section" style="background-image: url('static/assets/img/1.jpg');">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
@@ -115,59 +115,159 @@
     </section>
     <!-- Top Section -->
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
     
     <!-- Home -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
+                <h2 id="publications-subtitle"><img src="static/assets/img/people-fill.svg" alt="团队" class="icon-inline">课题组介绍</h2>
             </header>
-            <div class="main-body" id="home-md"></div>
+            <div class="main-body" id="team-md">
+                <div class="row align-items-start g-4">
+                    <div class="col-md-8">
+                        <p>
+                            这里是一段关于课题组的简要介绍文本。可介绍研究方向、团队规模、科研特色、代表性成果等关键信息。
+                            文字区域占用 2/3 宽度，适合放较完整的段落描述。
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="static/assets/img/1.gif" alt="团队图片" class="img-fluid rounded shadow-sm">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- Home -->
 
-    <!-- Publications -->
+    <!-- persons -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle"><img src="static/assets/img/person-bounding-box.svg" alt="教师" class="icon-inline">教师</h2>
             </header>
-            <div class="main-body" id="publications-md"></div>
-
+            <div class="main-body" id="teachers-md">
+                <div class="row g-5">
+                    <div class="col-md-4 p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <a href="Teachers/name_1/index.html" target="_blank">
+                                    <img src="Teachers/name_1/static/assets/img/photo.png" alt="name" 
+                                         class="rounded-circle shadow-sm" 
+                                         style="width: 100px; height: 100px; object-fit: cover;"
+                                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik01MCA1MEM1NS4yMjkyIDUwIDU5LjM3NSA0NS44NTQyIDU5LjM3NSA0MC42MjVDNTkuMzc1IDM1LjM5NTggNTUuMjI5MiAzMS4yNSA1MCAzMS4yNUM0NC43NzA4IDMxLjI1IDQwLjYyNSAzNS4zOTU4IDQwLjYyNSA0MC42MjVDNDAuNjI1IDQ1Ljg1NDIgNDQuNzcwOCA1MCA1MCA1MFoiIGZpbGw9IiNDOUNBQ0EiLz4KPHBhdGggZD0iTTUwIDU2LjI1QzU5Ljk0NTggNTYuMjUgNjguMTI1IDQ4LjA3MDggNjguMTI1IDM4LjEyNUM2OC4xMjUgMjguMTc5MiA1OS45NDU4IDIwIDUwIDIwQzQwLjA1NDIgMjAgMzEuODc1IDI4LjE3OTIgMzEuODc1IDM4LjEyNUMzMS44NzUgNDguMDcwOCA0MC4wNTQyIDU2LjI1IDUwIDU2LjI1WiIgZmlsbD0iI0M5Q0FDQSIvPgo8L3N2Zz4=';">
+                                </a>
+                            </div>
+                            <div>
+                                <h4 class="mb-1 fw-bold">name</h4>
+                                <p class="mb-0 text-muted">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <a href="Teachers/王宇轩_讲师/index.html" target="_blank">
+                                    <img src="Teachers/王宇轩_讲师/static/assets/img/photo.png" alt="王宇轩" 
+                                         class="rounded-circle shadow-sm" 
+                                         style="width: 100px; height: 100px; object-fit: cover;"
+                                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik01MCA1MEM1NS4yMjkyIDUwIDU5LjM3NSA0NS44NTQyIDU5LjM3NSA0MC42MjVDNTkuMzc1IDM1LjM5NTggNTUuMjI5MiAzMS4yNSA1MCAzMS4yNUM0NC43NzA4IDMxLjI1IDQwLjYyNSAzNS4zOTU4IDQwLjYyNSA0MC42MjVDNDAuNjI1IDQ1Ljg1NDIgNDQuNzcwOCA1MCA1MCA1MFoiIGZpbGw9IiNDOUNBQ0EiLz4KPHBhdGggZD0iTTUwIDU2LjI1QzU5Ljk0NTggNTYuMjUgNjguMTI1IDQ4LjA3MDggNjguMTI1IDM4LjEyNUM2OC4xMjUgMjguMTc5MiA1OS45NDU4IDIwIDUwIDIwQzQwLjA1NDIgMjAgMzEuODc1IDI4LjE3OTIgMzEuODc1IDM4LjEyNUMzMS44NzUgNDguMDcwOCA0MC4wNTQyIDU2LjI1IDUwIDU2LjI1WiIgZmlsbD0iI0M5Q0FDQSIvPgo8L3N2Zz4=';">
+                                </a>
+                            </div>
+                            <div>
+                                <h4 class="mb-1 fw-bold">王宇轩</h4>
+                                <p class="mb-0 text-muted">讲师</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+        
+        <!-- 间隔区域 -->
+        <div class="py-4"></div>
+        
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
+                <h2 id="publications-subtitle"><img src="static/assets/img/person-circle.svg" alt="研究生" class="icon-inline">研究生</h2>
             </header>
-            <div class="main-body" id="awards-md"></div>
-
+            <div class="main-body" id="students-md">
+                <div class="row g-5">
+                    <div class="col-md-4 p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <a href="Students/name_1/index.html" target="_blank">
+                                    <img src="Students/name_1/static/assets/img/photo.png" alt="name" 
+                                         class="rounded-circle shadow-sm" 
+                                         style="width: 100px; height: 100px; object-fit: cover;"
+                                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik01MCA1MEM1NS4yMjkyIDUwIDU5LjM3NSA0NS44NTQyIDU5LjM3NSA0MC42MjVDNTkuMzc1IDM1LjM5NTggNTUuMjI5MiAzMS4yNSA1MCAzMS4yNUM0NC43NzA4IDMxLjI1IDQwLjYyNSAzNS4zOTU4IDQwLjYyNSA0MC42MjVDNDAuNjI1IDQ1Ljg1NDIgNDQuNzcwOCA1MCA1MCA1MFoiIGZpbGw9IiNDOUNBQ0EiLz4KPHBhdGggZD0iTTUwIDU2LjI1QzU5Ljk0NTggNTYuMjUgNjguMTI1IDQ4LjA3MDggNjguMTI1IDM4LjEyNUM2OC4xMjUgMjguMTc5MiA1OS45NDU4IDIwIDUwIDIwQzQwLjA1NDIgMjAgMzEuODc1IDI4LjE3OTIgMzEuODc1IDM4LjEyNUMzMS44NzUgNDguMDcwOCA0MC4wNTQyIDU2LjI1IDUwIDU2LjI1WiIgZmlsbD0iI0M5Q0FDQSIvPgo8L3N2Zz4=';">
+                                </a>
+                            </div>
+                            <div>
+                                <h4 class="mb-1 fw-bold">name</h4>
+                                <p class="mb-0 text-muted">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <a href="Students/name_2/index.html" target="_blank">
+                                    <img src="Students/name_2/static/assets/img/photo.png" alt="name" 
+                                         class="rounded-circle shadow-sm" 
+                                         style="width: 100px; height: 100px; object-fit: cover;"
+                                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik01MCA1MEM1NS4yMjkyIDUwIDU5LjM3NSA0NS44NTQyIDU5LjM3NSA0MC42MjVDNTkuMzc1IDM1LjM5NTggNTUuMjI5MiAzMS4yNSA1MCAzMS4yNUM0NC43NzA4IDMxLjI1IDQwLjYyNSAzNS4zOTU4IDQwLjYyNSA0MC42MjVDNDAuNjI1IDQ1Ljg1NDIgNDQuNzcwOCA1MCA1MCA1MFoiIGZpbGw9IiNDOUNBQ0EiLz4KPHBhdGggZD0iTTUwIDU2LjI1QzU5Ljk0NTggNTYuMjUgNjguMTI1IDQ4LjA3MDggNjguMTI1IDM4LjEyNUM2OC4xMjUgMjguMTc5MiA1OS45NDU4IDIwIDUwIDIwQzQwLjA1NDIgMjAgMzEuODc1IDI4LjE3OTIgMzEuODc1IDM4LjEyNUMzMS44NzUgNDguMDcwOCA0MC4wNTQyIDU2LjI1IDUwIDU2LjI1WiIgZmlsbD0iI0M5Q0FDQSIvPgo8L3N2Zz4=';">
+                                </a>
+                            </div>
+                            <div>
+                                <h4 class="mb-1 fw-bold">name</h4>
+                                <p class="mb-0 text-muted">2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <a href="Students/name_2/index.html" target="_blank">
+                                    <img src="Students/name_2/static/assets/img/photo.png" alt="name" 
+                                         class="rounded-circle shadow-sm" 
+                                         style="width: 100px; height: 100px; object-fit: cover;"
+                                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik01MCA1MEM1NS4yMjkyIDUwIDU5LjM3NSA0NS44NTQyIDU5LjM3NSA0MC42MjVDNTkuMzc1IDM1LjM5NTggNTUuMjI5MiAzMS4yNSA1MCAzMS4yNUM0NC43NzA4IDMxLjI1IDQwLjYyNSAzNS4zOTU4IDQwLjYyNSA0MC42MjVDNDAuNjI1IDQ1Ljg1NDIgNDQuNzcwOCA1MCA1MCA1MFoiIGZpbGw9IiNDOUNBQ0EiLz4KPHBhdGggZD0iTTUwIDU2LjI1QzU5Ljk0NTggNTYuMjUgNjguMTI1IDQ4LjA3MDggNjguMTI1IDM4LjEyNUM2OC4xMjUgMjguMTc5MiA1OS45NDU4IDIwIDUwIDIwQzQwLjA1NDIgMjAgMzEuODc1IDI4LjE3OTIgMzEuODc1IDM4LjEyNUMzMS44NzUgNDguMDcwOCA0MC4wNTQyIDU2LjI1IDUwIDU2LjI1WiIgZmlsbD0iI0M5Q0FDQSIvPgo8L3N2Zz4=';">
+                                </a>
+                            </div>
+                            <div>
+                                <h4 class="mb-1 fw-bold">name</h4>
+                                <p class="mb-0 text-muted">2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <a href="Students/name_2/index.html" target="_blank">
+                                    <img src="Students/name_2/static/assets/img/photo.png" alt="name" 
+                                         class="rounded-circle shadow-sm" 
+                                         style="width: 100px; height: 100px; object-fit: cover;"
+                                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik01MCA1MEM1NS4yMjkyIDUwIDU5LjM3NSA0NS44NTQyIDU5LjM3NSA0MC42MjVDNTkuMzc1IDM1LjM5NTggNTUuMjI5MiAzMS4yNSA1MCAzMS4yNUM0NC43NzA4IDMxLjI1IDQwLjYyNSAzNS4zOTU4IDQwLjYyNSA0MC42MjVDNDAuNjI1IDQ1Ljg1NDIgNDQuNzcwOCA1MCA1MCA1MFoiIGZpbGw9IiNDOUNBQ0EiLz4KPHBhdGggZD0iTTUwIDU2LjI1QzU5Ljk0NTggNTYuMjUgNjguMTI1IDQ4LjA3MDggNjguMTI1IDM4LjEyNUM2OC4xMjUgMjguMTc5MiA1OS45NDU4IDIwIDUwIDIwQzQwLjA1NDIgMjAgMzEuODc1IDI4LjE3OTIgMzEuODc1IDM4LjEyNUMzMS44NzUgNDguMDcwOCA0MC4wNTQyIDU2LjI1IDUwIDU2LjI1WiIgZmlsbD0iI0M5Q0FDQSIvPgo8L3N2Zz4=';">
+                                </a>
+                            </div>
+                            <div>
+                                <h4 class="mb-1 fw-bold">name</h4>
+                                <p class="mb-0 text-muted">2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Awards -->
-
+    <!-- persons  -->
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>

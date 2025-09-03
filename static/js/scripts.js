@@ -4,8 +4,10 @@ const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'publications', 'awards']
 
+console.log('scripts.js 开始加载...');
 
 window.addEventListener('DOMContentLoaded', event => {
+    console.log('DOM加载完成，开始初始化...');
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
@@ -14,6 +16,7 @@ window.addEventListener('DOMContentLoaded', event => {
             target: '#mainNav',
             offset: 74,
         });
+        console.log('Bootstrap scrollspy 已激活');
     };
 
     // Collapse responsive navbar when toggler is visible
@@ -28,7 +31,6 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 
     // Yaml
     fetch(content_dir + config_file)
@@ -46,7 +48,6 @@ window.addEventListener('DOMContentLoaded', event => {
         })
         .catch(error => console.log(error));
 
-
     // Marked
     marked.use({ mangle: false, headerIds: false })
     section_names.forEach((name, idx) => {
@@ -62,4 +63,7 @@ window.addEventListener('DOMContentLoaded', event => {
             .catch(error => console.log(error));
     })
 
+    console.log('初始化完成');
 }); 
+
+console.log('scripts.js 加载完成'); 

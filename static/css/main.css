@@ -110,3 +110,11 @@ section .main-body{
 }
 
 
+/* inline icon next to titles */
+.icon-inline {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: .35em;
+    vertical-align: -0.15em;
+}
+

@@ -14,3 +14,5 @@
 - First-Prize Enterprise Scholarship (CUMT), 2020.
 
 - First-Prize Scholarship (CUMT), 2019.
+
+- First-Prize Scholarship (CUMTsss啊), 2019.
